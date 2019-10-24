@@ -1,4 +1,4 @@
-FROM instoll/serverless-node:0.7.0
+FROM instoll/serverless-node:0.8.0
 
 RUN echo "Install NodeJS dependencies" && \
       npm install -g \
